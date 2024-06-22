@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "debug.h": "c",
+    "chunk.h": "c"
+  }
+}
