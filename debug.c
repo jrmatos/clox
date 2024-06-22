@@ -2,6 +2,11 @@
 
 #include "debug.h"
 
+static int simpleInstruction(const char *name, int offset) {
+  printf("%s\n", name);
+  return offset + 1;
+}
+
 void disassambleChunk(Chunk *chunk, const char* name) {
   printf("== %s ==\n", name);
 
@@ -23,9 +28,3 @@ int disassambleInstruction(Chunk *chunk, int offset) {
       return offset + 1;
   }
 }
-
-static int simpleInstruction(const char *name, int offset) {
-  printf("%s\n", name);
-  return offset + 1;
-}
-
