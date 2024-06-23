@@ -12,6 +12,7 @@
               "${workspaceFolder}/chunk.c",
               "${workspaceFolder}/debug.c",
               "${workspaceFolder}/memory.c",
+              "${workspaceFolder}/value.c",
               "-I${workspaceFolder}"
           ],
           "group": {

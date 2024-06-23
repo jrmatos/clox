@@ -1,6 +1,18 @@
 {
   "files.associations": {
     "debug.h": "c",
-    "chunk.h": "c"
+    "chunk.h": "c",
+    "memory.h": "c",
+    "common.h": "c",
+    "type_traits": "c",
+    "limits": "c",
+    "ratio": "c",
+    "tuple": "c",
+    "variant": "c",
+    "__bit_reference": "c",
+    "iterator": "c",
+    "string": "c",
+    "string_view": "c",
+    "value.h": "c"
   }
 }
